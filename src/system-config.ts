@@ -3,10 +3,49 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  '@angular2-material': 'vendor/@angular2-material',
+  'ng2-translate': 'vendor/ng2-translate'
 };
 
 /** User packages configuration. */
 const packages: any = {
+  // '@angular2-material': {
+  //   map: {
+  //     './button': './button/button.js',
+  //     './card': './card/card.js',
+  //     './checkbox': './checkbox/checkbox.js',
+  //     './input': './input/input.js',
+  //     './progress-circle': './progress-circle/progress-circle.js',
+  //     './sidenav': './sidenav/sidenav.js',
+  //     './toolbar': './toolbar/toolbar.js',
+  //     './icon': './icon/icon.js',
+  //   }
+  // }
+  '@angular2-material/core': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'core.js'
+  },
+  '@angular2-material/toolbar': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'toolbar.js'
+  },
+  '@angular2-material/sidenav': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'sidenav.js'
+  },
+  '@angular2-material/icon': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'icon.js'
+  },
+  'ng2-translate': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'ng2-translate.js'
+  }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////

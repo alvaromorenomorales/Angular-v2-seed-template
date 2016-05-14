@@ -11,7 +11,10 @@ module.exports = function(defaults) {
       'es6-shim/es6-shim.js',
       'reflect-metadata/*.js',
       'rxjs/**/*.js',
-      '@angular/**/*.js'
+      'ng2-translate/*.js',
+      'ng2-translate/**/*.js',
+      '@angular/**/*.js',
+      '@angular2-material/**/*.js'
     ]
   });
 };
