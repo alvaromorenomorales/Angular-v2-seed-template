@@ -1,45 +1,31 @@
 <md-toolbar color="primary">
 
-  <button md-button class="md-icon-button" aria-label="Settings" (click)="clicked('Menu')">
-    <i md-icon>menu</i>
+  <button md-mini-fab color="primary">
+    <i class="mdi mdi-menu"></i>
   </button>
 
   <span></span>
-  
-  <!-- This fills the remaining space of the current row -->
+
   <span class="example-fill-remaining-space"></span>
   
   <span> {{ "salute" | translate }} </span>
   
 </md-toolbar>
 
-<!--<md-sidenav-layout>
-  <md-sidenav #start mode="side" [opened]="true">
-    This is the main sidenav
-  <sidebar></sidebar>
-  </md-sidenav>
+<div>
 
-  <md-sidenav #end align="end">
-    This sidenav suppose to open from different components across my application
-     to show extra information/data when user clicks an image for example.
-    <br>
-    <button md-button (click)="end.close()">Close</button>
-  </md-sidenav>
+<button md-button>FLAT</button>
+<button md-raised-button>RAISED</button>
 
-</md-sidenav-layout>-->
-
-<!--<app>
-  <md-sidenav-layout>
-    <md-sidenav #start (open)="mybutton.focus()">
-      Start Sidenav.
-      <br>
-      <button md-button #mybutton (click)="start.close()">Close</button>
-    </md-sidenav>
-    <md-sidenav #end align="end">
-      End Sidenav.
-      <button md-button (click)="end.close()">Close</button>
-    </md-sidenav>
-
-    My regular content. This will be moved into the proper DOM at runtime.
-  </md-sidenav-layout>
-</app>-->
+<button md-fab>
+    <md-icon class="md-24">add</md-icon>
+</button>
+<button md-mini-fab>
+  <i class="mdi mdi-menu"></i>
+</button>
+  
+  <button md-raised-button color="primary">PRIMARY</button>
+<button md-raised-button color="accent">ACCENT</button>
+<button md-raised-button color="warn">WARN</button>
+  
+</div>

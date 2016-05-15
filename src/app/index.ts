@@ -24,12 +24,7 @@ import {
 })
 export class IndexApp implements OnInit{
 
-  // mdIconRegistry
-  //   .addSvgIcon('thumb-up', '/demo-app/icon/assets/thumbup-icon.svg')
-  //   .addSvgIconSetInNamespace('core', '/demo-app/icon/assets/core-icon-set.svg')
-  //   .registerFontClassAlias('fontawesome', 'fa');
-  
-  constructor(public translate: TranslateService) {
+  constructor(public translate: TranslateService, public mdIconRegistry: MdIconRegistry) {
     console.log('entra a constructor');
     this.translate.get("salute")
       .subscribe(
@@ -39,6 +34,15 @@ export class IndexApp implements OnInit{
       (error) => {
         console.log(error);
       });
+      
+    // mdIconRegistry
+    //   .addSvgIcon('thumb-up', '/demo-app/icon/assets/thumbup-icon.svg')
+    //   .addSvgIconSetInNamespace('core', '/demo-app/icon/assets/core-icon-set.svg')
+    //   .registerFontClassAlias('fontawesome', 'fa');
+      
+    mdIconRegistry
+      .addSvgIconSetInNamespace('core', '/public/img/svg/mdi.svg');
+    
   }
   
   ngOnInit() {
