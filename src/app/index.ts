@@ -40,8 +40,8 @@ export class IndexApp implements OnInit{
     //   .addSvgIconSetInNamespace('core', '/demo-app/icon/assets/core-icon-set.svg')
     //   .registerFontClassAlias('fontawesome', 'fa');
       
-    mdIconRegistry
-      .addSvgIconSetInNamespace('core', '/public/img/svg/mdi.svg');
+    // mdIconRegistry
+    //   .addSvgIconSetInNamespace('core', 'material/css/materialdesignicons.min.css');
     
   }
   
