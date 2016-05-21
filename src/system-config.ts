@@ -26,6 +26,11 @@ const packages: any = {
     defaultExtension: 'js',
     main: 'core.js'
   },
+  '@angular2-material/card': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'card.js'
+  },
   '@angular2-material/toolbar': {
     format: 'cjs',
     defaultExtension: 'js',
@@ -45,6 +50,11 @@ const packages: any = {
     format: 'cjs',
     defaultExtension: 'js',
     main: 'icon.js'
+  },
+  '@angular2-material/input': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'input.js'
   },
   'ng2-translate': {
     format: 'cjs',

@@ -4,6 +4,8 @@ import {MdButton} from '@angular2-material/button';
 import {MdIcon, MdIconRegistry} from '@angular2-material/icon';
 import {MdToolbar} from '@angular2-material/toolbar';
 import {MdSidenav, MdSidenavLayout } from '@angular2-material/sidenav';
+import { MdCard } from '@angular2-material/card';
+import { MdInput } from '@angular2-material/input';
 
 import {
   TranslateService, TranslatePipe
@@ -15,7 +17,7 @@ import {
   styleUrls: ['./app/index.css'],
   templateUrl: "./app/index.html",
   directives: [
-    MdButton, MdToolbar, MdIcon, MdSidenav, MdSidenavLayout
+    MdButton, MdToolbar, MdIcon, MdSidenav, MdSidenavLayout, MdCard, MdInput
   ],
   viewProviders: [
     MdIconRegistry
