@@ -1,14 +1,36 @@
+body{
+  height: 100%!important;
+  width: 100%!important;
+  position: fixed!important;
+}
+md-sidenav-layout{
+  height: 100%;
+}
 .example-fill-remaining-space {
   flex: 1 1 auto;
 }
-/*.demo-toolbar-icon {
+/*
+.demo-sidenav-layout {
+  position:fixed;
+  min-height:100%;
+}
+.demo-sidenav-layout md-sidenav {
+    padding: 10px;
+    background: gainsboro;
+    min-height: 100%;
+}
+
+.demo-sidenav-content {
+  padding: 15px;
+  min-height:100%;
+}
+
+.demo-toolbar {
   padding: 6px;
+}
+.demo-toolbar .demo-toolbar-icon {
   padding: 0 14px 0 14px;
 }
-.demo-fill-remaining {
-  padding: 6px;
+.demo-toolbar .demo-fill-remaining {
   flex: 1 1 auto;
-}
-md-sidenav {
-  width: 200px;
 }*/
